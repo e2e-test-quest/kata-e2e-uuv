@@ -21,3 +21,13 @@ Feature: First test
       | Douala  |
       | Tunis   |
       | Limoges |
+
+  Scenario: TownSelection - Douala
+    Given I visit path "https://e2e-test-quest.github.io/weather-app/?isStarted=true"
+    # Select Douala town
+    And within a list named "Available Towns"
+    When I click on element with role "listitem" and name "Douala"
+    # Check the weather details for Douala town
+    Then within the element with aria-label "Weather of Douala"
+    And I should see a title named "Douala"
+    And I should see an element with content "min: 10.8 °c"
