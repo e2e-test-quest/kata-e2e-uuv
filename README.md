@@ -21,17 +21,17 @@ It's a simple application that displays the weather for a few towns.
 0. **Hello World** : Correct the test to make it successful
 1. **Homepage** : Check that the following elements are visible on the home page:
     - a title `Weather App`
-    - a button `Get started`
+    - a button `Welcome to Weather App`
 
 2. **Weather** : Check that from the home page, when you click on `Get started`, the following elements are visible:
     - a text `Nothing to display`
     - The list of towns in the left panel `['Douala', 'Tunis', 'Limoges']`
 
-3. TownSelection : Check that from the home page, when you click on `Get started`, then select the city `Douala`, the following elements are visible in the details section :
+3. TownSelection : Check that from the page with url `https://e2e-test-quest.github.io/weather-app/?isStarted=true`, when select the city `Douala`, the following elements are visible in the details section :
    - a title `Douala`
    - a text `min: 10.8 °c`
 
-4. **Filter** : Check that from the home page, when you click on `Get started`, then enter the text `i` in the search field and click on the search button, the towns available are : `['Tunis', 'Limoges']`
+4. **Filter** : Check that from the page with url `https://e2e-test-quest.github.io/weather-app/?isStarted=true`, when enter the text `i` in the search field and click on the search button, the towns available are : `['Tunis', 'Limoges']`
 
 5. **To go further** : You can also :
     - Check that you have respected [the recommendations](https://orange-opensource.github.io/uuv/fr/docs/test/recommendation#1-requ%C3%AAtes-bas%C3%A9es-sur-laccessibilit%C3%A9) of accessibility-based sentences  
