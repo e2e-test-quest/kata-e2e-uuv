@@ -20,8 +20,8 @@ It's a simple application that displays the weather for a few towns.
 ## Exercises
 0. **Hello World** : Correct the test to make it successful
 1. **Homepage** : Check that the following elements are visible on the home page:
-    - a title `Weather App`
-    - a button `Welcome to Weather App`
+    - a title `Welcome to Weather App`
+    - a button `Get started`
 
 2. **Weather** : Check that from the home page, when you click on `Get started`, the following elements are visible:
     - a text `Nothing to display`
