@@ -46,13 +46,15 @@ Il s'agit d'une application simple qui affiche la météo pour quelques villes.
    [Voir la Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/03-town-selection...04-filter)
 
 5. **Pour aller plus loin** : Vous pouvez :
-    - Vérifiez que vous avez respectez [les recommandations](https://orange-opensource.github.io/uuv/fr/docs/test/recommendation#1-requ%C3%AAtes-bas%C3%A9es-sur-laccessibilit%C3%A9) de phrases basées sur l'accessibilité  
+    - Effectuez des vérifications d'accessibilité : Consulter [cette page](https://orange-opensource.github.io/uuv/fr/docs/recommendations/improving-accessibility) pour plus d'informations   
+    - Vérifiez que vous avez respectez [les recommandations](https://orange-opensource.github.io/uuv/fr/docs/recommendations/writing-good-e2e-tests/) de phrases basées sur l'accessibilité
     - Mocker l'appel à l'url https://e2e-test-quest.github.io/weather-app/assets/data/mock.json pour changer la liste des villes disponibles 
     - Lancer les tests sur un ipad mini
     - Créer une [Phrase personnalisée](https://orange-opensource.github.io/uuv/fr/docs/wordings/add-custom-step-definition) pour la vérification des villes disponibles<br>
     [Voir la Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/04-filter...5-go-further)
    
 ## Liens utiles
+- [Comment écrire de bons tests E2E ?](https://orange-opensource.github.io/uuv/fr/docs/recommendations/writing-good-e2e-tests/)
 - [Dictionnaire de phrases](https://orange-opensource.github.io/uuv/fr/docs/wordings/generated-wording-description/en-generated-wording-description)
 - [Click action](https://orange-opensource.github.io/uuv/fr/docs/wordings/generated-wording-description/en-generated-wording-description#i-click)
 - [phrases par rôles](https://orange-opensource.github.io/uuv/fr/docs/wordings/generated-wording-description/en-generated-wording-description#par-r%C3%B4le)

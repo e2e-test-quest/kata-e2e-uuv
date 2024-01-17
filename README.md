@@ -46,13 +46,15 @@ It's a simple application that displays the weather for a few towns.
    [See Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/03-town-selection...04-filter)
 
 5. **To go further** : You can also :
-    - Check that you have respected [the recommendations](https://orange-opensource.github.io/uuv/fr/docs/test/recommendation#1-requ%C3%AAtes-bas%C3%A9es-sur-laccessibilit%C3%A9) of accessibility-based sentences  
+    - Make accessibility checks: Consult [this page](https://orange-opensource.github.io/uuv/docs/recommendations/improving-accessibility/) for more information  
+    - Check that you have respected [the recommendations](https://orange-opensource.github.io/uuv/docs/recommendations/writing-good-e2e-tests) of accessibility-based sentences
     - Mock the https://e2e-test-quest.github.io/weather-app/assets/data/mock.json url call to change the list of available towns 
     - Running tests on an iPad mini
     - Create a [custom sentence](https://orange-opensource.github.io/uuv/fr/docs/wordings/add-custom-step-definition) to check available towns<br>
     [See Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/04-filter...5-go-further)
    
 ## Helpful links
+- [How to write good E2E Tests ?](https://orange-opensource.github.io/uuv/docs/recommendations/writing-good-e2e-tests/)
 - [Sentence dictionary](https://orange-opensource.github.io/uuv/fr/docs/wordings/generated-wording-description/en-generated-wording-description)
 - [Click action](https://orange-opensource.github.io/uuv/fr/docs/wordings/generated-wording-description/en-generated-wording-description#i-click)
 - [sentences by role](https://orange-opensource.github.io/uuv/fr/docs/wordings/generated-wording-description/en-generated-wording-description#par-r%C3%B4le)
