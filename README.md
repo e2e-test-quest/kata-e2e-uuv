@@ -45,13 +45,20 @@ It's a simple application that displays the weather for a few towns.
 4. **Filter** : Check that from the page with url `https://e2e-test-quest.github.io/weather-app/?isStarted=true`, when enter the text `i` in the search field and click on the search button, the towns available are : `['Tunis', 'Limoges']`<br>
    [See Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/03-town-selection...04-filter)
 
-5. **To go further** : You can also :
+5. **Keyboard Navigation** : Check that from the page with url `https://e2e-test-quest.github.io/weather-app/`, when start the keyboard navigation from the top of the page, then you see the following items focused during navigation :
+    - a link `Weather App's Logo`
+    - a link `Home`
+    - a button `Get started`<br>
+   [See Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/04-filter...05-keyboard-navigation)
+
+6. **To go further** : You can also :
     - Make accessibility checks: Consult [this page](https://orange-opensource.github.io/uuv/docs/recommendations/improving-accessibility/) for more information  
     - Check that you have respected [the recommendations](https://orange-opensource.github.io/uuv/docs/recommendations/writing-good-e2e-tests) of accessibility-based sentences
     - Mock the https://e2e-test-quest.github.io/weather-app/assets/data/mock.json url call to change the list of available towns 
+    - Test `Add new town` feature (form filling using mouse and keyboard)
     - Running tests on an iPad mini
     - Create a [custom sentence](https://orange-opensource.github.io/uuv/fr/docs/wordings/add-custom-step-definition) to check available towns<br>
-    [See Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/04-filter...5-go-further)
+    [See Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/05-keyboard-navigation...6-go-further)
    
 ## Helpful links
 - [How to write good E2E Tests ?](https://orange-opensource.github.io/uuv/docs/recommendations/writing-good-e2e-tests/)

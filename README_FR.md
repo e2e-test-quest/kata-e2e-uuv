@@ -45,13 +45,20 @@ Il s'agit d'une application simple qui affiche la météo pour quelques villes.
 4. **Filter** : Vérifier que depuis la page avec l'url `https://e2e-test-quest.github.io/weather-app/?isStarted=true`, lorsqu'on saisit le texte `i` dans le champ de recherche et qu'on clique sur le bouton rechercher, alors les villes disponibles : `['Tunis', 'Limoges']`<br>
    [Voir la Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/03-town-selection...04-filter)
 
-5. **Pour aller plus loin** : Vous pouvez :
+5. **Navigation au clavier** : Vérifier que depuis la page avec l'url `https://e2e-test-quest.github.io/weather-app/`, lorsqu'on commence une navigation au clavier depuis le haut de la page, alors on voit les éléments suivants durant la navigation :
+    - un lien `Weather App's Logo`
+    - un lien `Home`
+    - un bouton `Get started`<br>
+      [See Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/04-filter...05-keyboard-navigation)
+
+6. **Pour aller plus loin** : Vous pouvez :
     - Effectuez des vérifications d'accessibilité : Consulter [cette page](https://orange-opensource.github.io/uuv/fr/docs/recommendations/improving-accessibility) pour plus d'informations   
     - Vérifiez que vous avez respectez [les recommandations](https://orange-opensource.github.io/uuv/fr/docs/recommendations/writing-good-e2e-tests/) de phrases basées sur l'accessibilité
-    - Mocker l'appel à l'url https://e2e-test-quest.github.io/weather-app/assets/data/mock.json pour changer la liste des villes disponibles 
+    - Mocker l'appel à l'url https://e2e-test-quest.github.io/weather-app/assets/data/mock.json pour changer la liste des villes disponibles
+    - Tester la fonctionnalité `Add new town` (remplissage du formulaire à la souris ainsi qu'au clavier)
     - Lancer les tests sur un ipad mini
     - Créer une [Phrase personnalisée](https://orange-opensource.github.io/uuv/fr/docs/wordings/add-custom-step-definition) pour la vérification des villes disponibles<br>
-    [Voir la Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/04-filter...5-go-further)
+    [Voir la Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/05-keyboard-navigation...6-go-further)
    
 ## Liens utiles
 - [Comment écrire de bons tests E2E ?](https://orange-opensource.github.io/uuv/fr/docs/recommendations/writing-good-e2e-tests/)
