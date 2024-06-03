@@ -58,7 +58,7 @@ Il s'agit d'une application simple qui affiche la météo pour quelques villes.
     - Tester la fonctionnalité `Add new town` (remplissage du formulaire à la souris ainsi qu'au clavier)
     - Lancer les tests sur un ipad mini
     - Créer une [Phrase personnalisée](https://orange-opensource.github.io/uuv/fr/docs/wordings/add-custom-step-definition) pour la vérification des villes disponibles<br>
-    [Voir la Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/05-keyboard-navigation...6-go-further)
+    [Voir la Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/05-keyboard-navigation...06-go-further)
    
 ## Liens utiles
 - [Comment écrire de bons tests E2E ?](https://orange-opensource.github.io/uuv/fr/docs/recommendations/writing-good-e2e-tests/)

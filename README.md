@@ -58,7 +58,7 @@ It's a simple application that displays the weather for a few towns.
     - Test `Add new town` feature (form filling using mouse and keyboard)
     - Running tests on an iPad mini
     - Create a [custom sentence](https://orange-opensource.github.io/uuv/fr/docs/wordings/add-custom-step-definition) to check available towns<br>
-    [See Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/05-keyboard-navigation...6-go-further)
+    [See Solution](https://github.com/e2e-test-quest/kata-e2e-uuv/compare/05-keyboard-navigation...06-go-further)
    
 ## Helpful links
 - [How to write good E2E Tests ?](https://orange-opensource.github.io/uuv/docs/recommendations/writing-good-e2e-tests/)
