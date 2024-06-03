@@ -44,3 +44,10 @@ Feature: First test
     Then I should see a list named "Available Towns" and containing
       | Tunis   |
       | Limoges |
+
+  Scenario: Keyboard navigation
+    Given I visit path "https://e2e-test-quest.github.io/weather-app/"
+    When I start a keyboard navigation from the top of the page
+    Then the next keyboard element focused should be a link named "Weather App's Logo"
+    And the next keyboard element focused should be a link named "Home"
+    And the next keyboard element focused should be a button named "Get started"
