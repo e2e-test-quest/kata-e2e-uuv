@@ -51,6 +51,26 @@ Feature: First test
     Then the next keyboard element focused should be a link named "Weather App's Logo"
     And the next keyboard element focused should be a link named "Home"
     And the next keyboard element focused should be a button named "Get started"
+
+  Scenario: Fill new town form with mouse
+    Given I visit path "https://e2e-test-quest.github.io/weather-app/?isStarted=true"
+    And I mock a request GET on url "https://e2e-test-quest.github.io/weather-app/assets/data/mock.json" named "mock-new-town" with fixture mock-new-town.json
+    And I mock a request POST on url "https://e2e-test-quest.github.io/weather-app/api" named "mock-post-new-town" with content "Success"
+    And I click on button named "Add new town"
+
+    And I type the sentence "Paris" in the text box named "Town name"
+    And I type the sentence "10" in the spin button named "Latitude"
+    And I type the sentence "123" in the spin button named "Longitude"
+    And I type the sentence "Simple Description" in the text box named "Description"
+
+    When I click on button named "Submit new town form"
+
+    Then I should see a list named "Available Towns" and containing
+      | Douala  |
+      | Tunis   |
+      | Limoges |
+      | Paris   |
+
   Scenario: Fill new town form with keyboard
     Given I visit path "https://e2e-test-quest.github.io/weather-app/?isStarted=true"
     And I mock a request GET on url "https://e2e-test-quest.github.io/weather-app/assets/data/mock.json" named "mock-new-town" with fixture mock-new-town.json
