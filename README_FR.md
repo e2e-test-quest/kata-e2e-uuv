@@ -9,6 +9,7 @@ L'application web pour laquelle nous devons écrire des tests E2E est [Weather A
 Il s'agit d'une application simple qui affiche la météo pour quelques villes.
 
 ## Mise en place de votre environnement
+Vous pouvez soit [ouvrir un codespace depuis ce dépôt](https://docs.github.com/fr/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository) ou effectuer les actions suivantes si vous développez depuis votre environnement local :
 1. Cloner ce dépôt Git au sein d'un répertoire que nous appellerons `KATA_HOME`
 2. Installer [l'autocomplétion](https://orange-opensource.github.io/uuv/fr/docs/getting-started/configuration#autocompl%C3%A9tion) dans l'IDE (Si intelliJ, ne pas exécuter en tant qu'administrateur)
 3. Ouvrir le projet dans l'IDE

@@ -9,6 +9,7 @@ The web application for which we are to write E2E tests is [Weather App](https:/
 It's a simple application that displays the weather for a few towns.
 
 ## Set up your environment
+You can either [open a codespace from this repository](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository) or perform the following actions if you are developing from your local environment:
 1. Clone this Git repository in a directory we'll call `KATA_HOME`
 2. Install [autocompletion](https://orange-opensource.github.io/uuv/fr/docs/getting-started/configuration#autocompl%C3%A9tion) in the IDE (if intelliJ, do not run as administrator)
 3. Open project in IDE
